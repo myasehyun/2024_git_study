@@ -16,7 +16,13 @@ app.get('/test',(req,res)=>{
     res.send('test에 대한 요청');
 }) //주소:3000/test치면 이 문단 뜸.
 
+
 app.get('/myaong',(req,res)=>{
     console.log('===> mayong에 대한 요청');
     res.send('아임 응애에요');
 })
+
+app.get('/login',(req,res)=>{
+    console.log('로그인 요청');
+    res.send('로그인 페이지 예시');
+}) 
